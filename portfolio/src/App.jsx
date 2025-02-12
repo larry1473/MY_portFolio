@@ -18,6 +18,7 @@ function App() {
           <h1 className='text-5xl font-bold'>Larry Fotso.G</h1>
           <p className='text-2xl'>Aspiring Full Stack software Engineer</p>
           <p className='text-2xl'>I am a software engineer with a passion for web development</p>
+          <p className='text-2xl'>I am a software engineer with a passion for web development</p>
         </div>
        </div>
     </div>

@@ -31,7 +31,7 @@ function App() {
        <NavBar scrollToSection = {scrollToSection}/>
        <div className='flex justify-center space-x-18'>
         <div className='picture'>
-          <img src="/portfolio/src/assets/2036.jpg" className="  w-95 rounded-lg shadow-lg"/>
+          <img src={Profile} className="  w-95 rounded-lg shadow-lg"/>
         </div>
         <div className='flex-row  content-center text-center'>
           <p className="text-gray-600 text-3xl md:text-5xl typing-effect ">Hello, i am </p>

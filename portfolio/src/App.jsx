@@ -14,6 +14,10 @@ import
 import { Studies } from './components/Studies';
 import { ProjectCart } from "./components/ProjectCart";
 import resume from './assets/resume.pdf'
+import Profile from '.assets/2036.jpg'
+import udem from './assets/udem.jpeg'
+import project2 from './assets/project2.png'
+import cafeSansFil from './assets/cafeSansFil.png'
 // import './App.css'
 
 function App() {
@@ -27,7 +31,7 @@ function App() {
        <NavBar scrollToSection = {scrollToSection}/>
        <div className='flex justify-center space-x-18'>
         <div className='picture'>
-          <img src="/2036.jpg" className="  w-95 rounded-lg shadow-lg"/>
+          <img src={Profile} className="  w-95 rounded-lg shadow-lg"/>
         </div>
         <div className='flex-row  content-center text-center'>
           <p className="text-gray-600 text-3xl md:text-5xl typing-effect ">Hello, i am </p>
@@ -65,8 +69,8 @@ function App() {
                 <p className='text-2xl inline text-gray-600'> Education</p>
               </div>
                 <div className='items-center space-y-6 '>
-                  <Studies image={"/udem.jpeg"} text={'Bachelor of Computer Science 2022-2024'}/>
-                  <Studies image={"/udem.jpeg"} text={'Certificate in applied Computer Science 2021-2022 '}/>
+                  <Studies image={udem} text={'Bachelor of Computer Science 2022-2024'}/>
+                  <Studies image={udem} text={'Certificate in applied Computer Science 2021-2022 '}/>
                   <Studies image={"https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fibisa.unican.es%2Fwp-content%2Fuploads%2F2023%2F12%2FUMONS-logo-1024x274.png&f=1&nofb=1&ipt=9298fee1dacb5fb7f0b91869c1c63ae224222720a4e8aa7521c980d8cb5d690e&ipo=images"} text={'Bachelor of Computer Science 2018-2021'}/>
                   
                   
@@ -160,11 +164,11 @@ function App() {
         <h1 className='text-4xl font-bold text-center'>Projects</h1>
         <div className=" gap-5 flex justify-center  w-full h-full pt-6 ">
           <div className="w-[35rem] h-[30rem] rounded-lg border-gray-700 shadow-2xl">
-              <ProjectCart image="/cafeSansFil.png" title={"Student Café Management Mobile App"} des={"App to manage cafe staff and it's stocks "}  gitLink={'https://github.com/larry1473/cafesansfil-mobile'} demo={"https://drive.google.com/file/d/1GNoI4bMbtajqU7q1QDSAhnXwuJLLPN5n/view"}/>
+              <ProjectCart image={cafeSansFil} title={"Student Café Management Mobile App"} des={"App to manage cafe staff and it's stocks "}  gitLink={'https://github.com/larry1473/cafesansfil-mobile'} demo={"https://drive.google.com/file/d/1GNoI4bMbtajqU7q1QDSAhnXwuJLLPN5n/view"}/>
           </div>
 
           <div className="w-[35rem] h-[30rem] rounded-lg border-gray-700 shadow-2xl">
-            <ProjectCart image="/image.png" title={"Project Management Mobile App"} des={"App to manage group projects "}  gitLink={'https://github.com/larry1473/IFT3225_Projet2'} demo={""}/>
+            <ProjectCart image={project2} title={"Project Management Mobile App"} des={"App to manage group projects "}  gitLink={'https://github.com/larry1473/IFT3225_Projet2'} demo={""}/>
           </div>
 
         </div>

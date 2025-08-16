@@ -9,5 +9,5 @@ export default defineConfig({
     tailwindcss(),
 
   ],
-  base: '/MY_portFolio'
+  base: '/MY_portFolio/'
 })

@@ -14,7 +14,7 @@ import
 import { Studies } from './components/Studies';
 import { ProjectCart } from "./components/ProjectCart";
 import resume from './assets/resume.pdf'
-import Profile from '.assets/2036.jpg'
+import Profile from './assets/2036.jpg'
 import udem from './assets/udem.jpeg'
 import project2 from './assets/project2.png'
 import cafeSansFil from './assets/cafeSansFil.png'
@@ -31,7 +31,7 @@ function App() {
        <NavBar scrollToSection = {scrollToSection}/>
        <div className='flex justify-center space-x-18'>
         <div className='picture'>
-          <img src={Profile} className="  w-95 rounded-lg shadow-lg"/>
+          <img src="/portfolio/src/assets/" className="  w-95 rounded-lg shadow-lg"/>
         </div>
         <div className='flex-row  content-center text-center'>
           <p className="text-gray-600 text-3xl md:text-5xl typing-effect ">Hello, i am </p>
